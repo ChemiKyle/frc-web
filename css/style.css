@@ -7,7 +7,7 @@ p {
 }
 
 a {
-    color: blue;
+    color: #1285D0;
 }
 
 h1 {
@@ -393,10 +393,10 @@ iframe {
 	padding-top:70px;
     min-height: 100%;
     background: #072C55; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #072C55, #B5A08E); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #072C55, #B5A08E); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #072C55, #B5A08E); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #072C55, #B5A08E); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left top, #072C55, #4C4C4D); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #072C55, #4C4C4D); /* Standard syntax (must be last) */
 }
 
 
@@ -412,7 +412,7 @@ iframe {
 	display: none;
 }
 
-.orange-btn, .purple-btn, .grey-btn {
+.orange-btn, .purple-btn, .grey-btn .red-btn {
     color: #FFF;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -420,6 +420,15 @@ iframe {
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: initial;
+}
+
+.red-btn {
+    background: #FF0000;
+}
+
+.red-btn:hover, .red-btn:active, .red-btn:focus {
+    background: #FC4D4D;
+    color: #fff;
 }
 
 .orange-btn {
