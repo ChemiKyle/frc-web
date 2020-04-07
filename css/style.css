@@ -306,6 +306,10 @@ li p a:active {
 	color: white;
 }
 
+.txtalt {
+	color: orange;
+}
+
 .line {
 	margin:0 0 15px;
 
@@ -396,7 +400,7 @@ iframe {
     background: -webkit-linear-gradient(left top, #072C55, #4C4C4D); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #072C55, #4C4C4D); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #072C55, #4C4C4D); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom right, #4C4C4D, #212F3C); /* Standard syntax (must be last) */
 }
 
 
@@ -412,7 +416,7 @@ iframe {
 	display: none;
 }
 
-.orange-btn, .purple-btn, .grey-btn .red-btn {
+.orange-btn, .purple-btn, .grey-btn .red-btn .black-btn {
     color: #FFF;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -440,13 +444,13 @@ iframe {
     color: #fff;
 }
 
-.purple-btn {
-    background: #814397;
+.black-btn {
+    background: #000000;
 }
 
-.purple-btn:hover, .purple-btn:active, .purple-btn:focus {
-    background: #B58BBF;
-    color: #fff;
+.black-btn:hover, .black-btn:active, .black-btn:focus {
+    background: #454545;
+    color: #000000;
 }
 
 .custom-button {
