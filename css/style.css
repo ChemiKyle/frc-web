@@ -77,6 +77,10 @@ li a {
     border: 1px #ddd solid;
 }
 
+.table {
+    font-size: 20px;
+}
+
 body {
 	padding-top: 110px;
 	background-color: #072C55;
