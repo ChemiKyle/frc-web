@@ -3,7 +3,7 @@ $.getJSON("https://redcap.ctsi.ufl.edu/redcap/api/?type=module&prefix=redcap_web
     let i = 0;
     $.each(data.data, function() {
         let tbl_row = "";
-        let color = "";
+        let row_color = "";
         $.each(this, function(k , v) {
             if (v == 0) {
                 row_color = "style='color: orange'";
